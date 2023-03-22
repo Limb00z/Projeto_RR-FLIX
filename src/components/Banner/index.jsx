@@ -1,9 +1,11 @@
-import style from './Banner.module.css'
+import styles from './Banner.module.css'
 
-export default function Banner(){
+export default function Banner({imagem}){
   return(
-    <div className={style.banner}>
-      <h1>teste</h1>
-    </div>
+    <div 
+      className={styles.banner}
+      style={{backgroundImage: `url('./img/banner-${imagem}.png')`}}
+    
+    ></div>
   )
 }
