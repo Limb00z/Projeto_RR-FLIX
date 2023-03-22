@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <Banner imagem="home" />
+      <Banner imagem="assistir" />
       <Container>
         <h1>TESTE</h1>
         <p>teste 2 sobre toda a vida és lindo</p>
